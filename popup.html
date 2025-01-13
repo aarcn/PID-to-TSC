@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HCAD SC Finder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      width: 300px;
+      text-align: center;
+      background-color: transparent;
+      color: #333;
+      overflow: hidden;
+    }
+
+    .header {
+      background-color: #182cac;
+      color: white;
+      padding: 10px 0;
+    }
+
+    .header img {
+      width: 50px;
+      height: auto;
+    }
+
+    .header h1 {
+      margin: 5px 0;
+      font-size: 18px;
+    }
+
+    .content {
+      padding: 15px;
+      background-color: transparent;
+    }
+
+    button {
+      background-color: #182cac;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      font-size: 14px;
+      cursor: pointer;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #4a56e0;
+    }
+
+    #result {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #182cac;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="icon.png" alt="Logo">
+    <h1>HCAD SC Finder</h1>
+  </div>
+  <div class="content">
+    <button id="findCodeButton">Find State Code</button>
+    <p id="result"></p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
