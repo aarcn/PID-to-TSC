@@ -34,6 +34,7 @@ const stateDescriptions = {
     "N1": "Intangibles",
     "O1": "Inventory",
     "O2": "Inventory",
+    "O3": "Inventory",
     "PT": "Subdivision Header",
     "S1": "Dealer Inventory",
     "T": "Temporary",
